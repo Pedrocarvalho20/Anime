@@ -1,0 +1,57 @@
+font-face {
+    font-family: 'panton';
+    src: url('../components/fonts/panton-black-webfont.wolf2') format('woff2'),
+         url('../components/fonts/panton-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+
+
+
+
+  @font-face {
+    font-family: 'panton';
+    src: url('../components/fonts/panton-bold-webfont.woff2') format('woff2'),
+         url('../components/fonts/panton-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+
+
+  @font-face {
+    font-family: 'panton';
+    src: url('../components/fonts/panton-light-webfont.woff2') format('woff2'),
+         url('../components/fonts/panton-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+
+
+  @font-face {
+    font-family: 'panton';
+    src: url('../components/fonts/panton-medium-webfont.woff2') format('woff2'),
+         url('../components/fonts/panton-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+
+  @font-face {
+    font-family: 'panton';
+    src: url('../components/fonts/panton-regular-webfont.woff2') format('woff2'),
+         url('../components/fonts/panton-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+
+  @font-face {
+    font-family: 'panton';
+    src: url('../components/fonts/panton.woff2') format('woff2'),
+         url('../components/fonts/panton-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
