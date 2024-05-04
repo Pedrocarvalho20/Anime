@@ -29,4 +29,22 @@
     img{
         max-width: 300px;
     }
+    /*section contato*/
+    .contato{
+        font-size: 25px;
+    }
+    .paragrafo{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .botao-whatsapp{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: bold;
+        width: 40%;
+        border-radius: 20px;
+        line-height: 15px;
+        margin-top: 20px;
+    }
 }

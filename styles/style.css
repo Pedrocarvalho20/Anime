@@ -125,3 +125,40 @@ input{
         transform: scale(1);
     }
 }
+/*section contato*/
+section{
+    margin-top: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+h3 .contato{
+    font-weight: 600;
+    margin-top: 40px;
+    font-family: pantonmedium;
+}
+
+.paragrafo{
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 50px;
+    text-align: center;
+margin: 0 auto;
+}
+.botao-whatsapp {
+    display: block;
+    padding: 10px 20px;
+    background-color: #10853b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s;
+    margin: auto;
+    width: 30%;
+}
+
+.botao-whatsapp:hover {
+    background-color: #f7f7f7;
+    color: rgb(167, 28, 28);
+}
