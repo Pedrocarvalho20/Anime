@@ -76,10 +76,11 @@ span {
 }
 
 p {
-    line-height: 25px;
-    max-width: 400px;
+    line-height: 30px;
+    max-width: 600px;
     font-family: pantonlight;
-    font-weight: 400;
+    font-weight: 600;
+    width: 400px;
 }
 
 img {
@@ -156,9 +157,32 @@ margin: 0 auto;
     transition: background-color 0.3s;
     margin: auto;
     width: 30%;
+    font-size: 20px;
 }
 
 .botao-whatsapp:hover {
     background-color: #f7f7f7;
-    color: rgb(167, 28, 28);
+    color: #000;
+}
+/*cadastro*/
+.cadastro{
+    text-align: center;
+
+}
+.cadastro h3{
+  margin-top: 50px;
+  font-family: pantonbold;
+}
+.cadastro form{
+    text-align: center;
+    margin-top: 30px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.cadastro form [type="submit"]{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 70%;
+    font-weight: bold;
+    font-size: 15px;
 }
