@@ -47,4 +47,28 @@
         line-height: 15px;
         margin-top: 20px;
     }
+    
+/*sectiion serviço*/
+.SERVIÇO{
+    font-size: 50px;
+    margin-top: 40px;
+}
+.desevolvimento h3{
+    font-size: 30px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.desevolvimento p{
+    font-size: 20px;
+    
+}
+.beneficios h3{
+    font-size: 30px;
+    margin-top: 5px;
+    
+}
+.beneficios p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
 }
