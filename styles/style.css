@@ -220,3 +220,32 @@ main h3{
     line-height: 40px;
     font-size: 20px;
 }
+/*section sobre*/
+.SOBRE2 h3{
+    font-size: 50px;
+    display: flex;
+}
+.meio{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.meio p{
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 20px;
+    width: 600px;
+    font-weight: 200;
+   font-family: Arial,sans-serif;
+}
+.meio span{
+    font-size: 25px;
+}
+
+.imagem{
+    font-size: 200px;
+   display: inline-block;
+   animation: none;
+}
+
+
