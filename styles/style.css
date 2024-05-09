@@ -79,18 +79,19 @@ p {
     line-height: 30px;
     max-width: 600px;
     font-family: pantonlight;
-    font-weight: 600;
+    font-weight: 200;
     width: 400px;
+    margin: 0 auto;
+
 }
 
 img {
     width: 400px;
-    animation: pulse 1s ease-in-out infinite;
 }
 form{
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 100%;
 }
 form [type="submit"]{
     height: 50px;
@@ -107,24 +108,13 @@ form [type="submit"]:hover{
    
 }
 input{
-    margin-top: 15px;
-    height: 30px;
+    margin-top: 20px;
+    height: 20px;
     padding: 15px;
     border-radius: 20px;
     border: none;
+    width: 50%;
 
-}
-/*animação*/
-@keyframes pulse{
-    0%{
-        transform: scale(1);
-    }
-    50%{
-        transform: scale(1.1);
-    }
-    100%{
-        transform: scale(1);
-    }
 }
 /*section contato*/
 section{
@@ -134,7 +124,7 @@ section{
 }
 h3 .contato{
     font-weight: 600;
-    margin-top: 40px;
+    margin-top: 50px;
     font-family: pantonmedium;
 }
 
@@ -143,7 +133,9 @@ h3 .contato{
     font-weight: 200;
     line-height: 50px;
     text-align: center;
-margin: 0 auto;
+    margin: 0 auto;
+    margin-top: 40px;
+
 }
 .botao-whatsapp {
     display: block;
@@ -165,27 +157,17 @@ margin: 0 auto;
     color: #000;
 }
 /*cadastro*/
-.cadastro{
-    text-align: center;
+section{ 
+    line-height:5px;
+    margin-top: 30px
+}
+section h4{
+    line-height: 5px;
+    margin-bottom: 20PX;
+    font-size: 40px;
+    
+}
 
-}
-.cadastro h3{
-  margin-top: 50px;
-  font-family: pantonbold;
-}
-.cadastro form{
-    text-align: center;
-    margin-top: 30px;
-    justify-content: center;
-    margin: 0 auto;
-}
-.cadastro form [type="submit"]{
-    margin: 0 auto;
-    margin-top: 30px;
-    width: 70%;
-    font-weight: bold;
-    font-size: 15px;
-}
 /*serviço*/
 .SERVIÇO{
     font-size: 60px;
@@ -206,7 +188,9 @@ main h3{
     text-align: center;
     width: 500px;
     line-height: 40px;
-    font-size: 25px;
+    font-size: 20px;
+    font-family: Arial,sans-serif;
+    font-weight: 200;
 }
 .desevolvimento h3{
     color: rgb(167, 28, 28);
@@ -219,16 +203,21 @@ main h3{
     width: 500px;
     line-height: 40px;
     font-size: 20px;
+    font-family: Arial,sans-serif;
+    font-weight: 200;
 }
 /*section sobre*/
 .SOBRE2 h3{
-    font-size: 50px;
-    display: flex;
+    font-size: 60px;
+    line-height: 5px;
+    margin-top: 50px;
+
 }
 .meio{
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 5px;
+
 }
 .meio p{
     flex-direction: column;
@@ -247,5 +236,5 @@ main h3{
    display: inline-block;
    animation: none;
 }
-
+/*animação js*/
 

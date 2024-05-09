@@ -21,7 +21,7 @@
             <a href="./serviço.html"><li>Serviço</li></a>
             <a href="./Sobre.html"><li>Sobre</li></a>
             <a href="./Contato.html"><li>Contato</li></a>
-            <a href="./Cadartro.html" id="increva-se-btn"><li>Já tem uma conta?</li></a>
+            <a href="#" id="increva-se-btn"><li>Já tem uma conta?</li></a>
         </ul>
     </header>
     <main>
@@ -32,18 +32,22 @@
                 de diversas áreas. Utilizando tecnologias como HTML, CSS, JavaScript e frameworks modernos, busco
                 desenvolver soluções eficientes e visualmente atrativas que atendam às necessidades específicas de cada
                 projeto. .</p>
-            <form>
-                <input type="text" placeholder="Nome">
-                <input type="email" placeholder="E-mail">
-                <input type="password" placeholder="Password">
-                <input type="submit" value="Enviar >">
-            </form>
+                <form action="cadastro.php" method="post">
+                    <section id="Já tem uma conta?">
+                        <h4>Cadastro de Usuário</h4>
+                        <input type="text" name="nome" placeholder="Nome" required><br><br>
+                        <input type="email" name="email" placeholder="E-mail" required><br><br>
+                        <input type="password" name="senha" placeholder="Senha" required><br><br>
+                        <input type="submit" value="Cadastrar">
+                    </section>
+                </form>
         </aside>
 
         <article>
             <img src="./components/image/luffy gear 5.png" alt="luffy">
         </article>
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
